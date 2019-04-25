@@ -20,8 +20,9 @@ public class CreateEmployee {
 		
 		Employees e=new Employees();
 		e.setLastName("Prasad");
+		e.setLastName("Gudavalli");
 		e.setJobId("FI_MGR");
-		e.setEmail("prasadba@gmail.com");
+		e.setEmail("pras@gmail.com");
 		e.setSalary("17000");
 		e.setHireDate(new java.sql.Date(Calendar.getInstance().getTime().getTime()));
 		session.beginTransaction();

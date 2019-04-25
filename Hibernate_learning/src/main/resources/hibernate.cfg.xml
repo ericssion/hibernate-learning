@@ -9,7 +9,7 @@
         <!-- JDBC Database connection settings -->
         <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
         <property name="connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>
-        <property name="connection.username">HBM</property>
+        <property name="connection.username">pbabu29</property>
         <property name="connection.password">Admin@123</property>
 
         <!-- JDBC connection pool settings ... using built-in test pool -->

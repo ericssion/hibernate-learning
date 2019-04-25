@@ -21,7 +21,7 @@ public class Employees {
 	int employeeId;
 	
 	@Column(name="FIRST_NAME")
-	String firstName;
+	private String firstName;
 	
 	@Column(name="LAST_NAME")
 	String lastName;

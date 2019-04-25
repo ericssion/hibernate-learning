@@ -20,7 +20,7 @@ public class EmployeeDetailsUsingHQL {
 		session.beginTransaction();
 		
 		List<Employees> emplist=session.createQuery("from Employees e where e.lastName='Prasad'").getResultList();
-		
+		//List<Employees> emplist=session.createQuery("from Employees e").getResultList();
 		session.getTransaction().commit();
 		
 		
